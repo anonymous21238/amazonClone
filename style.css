@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+.navbar{
+    /* border: 2px; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 99px;
+    background-color: #0f1111;
+}
+
+/* .navLogo{
+    height: 50px;
+    width: 120px;
+} */
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
