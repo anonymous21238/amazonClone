@@ -21,6 +21,7 @@ body{
     background-color: #0f1111;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .navLogo{
@@ -83,7 +84,7 @@ body{
     
     
     height: 40px;
-    width: 620px;
+    width: 800px;
     display: flex;
     align-items: center;
     background-color: pink;
@@ -103,7 +104,7 @@ body{
 
 .search-text{
     height: 2.5rem;
-    width: 535px;
+    width: 718px;
     background-color: #ffffff;
     /* border: #0f1111; */
     border-left: 1px;
@@ -118,4 +119,50 @@ body{
 .Search-logo{
     position: relative;
     left: 13px;
+}
+
+.nav-lang{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    /* background-color: #0f1111; */
+}
+
+.lang-drp{
+    background-color: #0f1111;
+    color: #ffffff;
+}
+
+.signin{
+    height: 60px;
+    display: flex;
+    /* flex-direction: column; */
+    color: #f3f3f3;
+    align-items: center;
+}
+
+.nav-return{
+    height: 60px;
+    display: flex;
+    /* flex-direction: column; */
+    color: #f3f3f3;
+    align-items: center;
+}
+
+.welcome{
+    color: #CCCCCC;
+    font-size: 0.8rem;
+}
+
+.nahh{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.cart{
+    height: 60px;
+    display: flex;
+    /* flex-direction: column; */
+    color: #f3f3f3;
+    align-items: center;
 }
