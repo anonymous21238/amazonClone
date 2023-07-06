@@ -87,7 +87,7 @@ body{
     width: 800px;
     display: flex;
     align-items: center;
-    background-color: pink;
+    background-color: rgb(250, 223, 25);
     border-radius: 4px;
     border-radius: 5px;
     
@@ -99,7 +99,17 @@ body{
     border-top-left-radius: 5px ;
     border-bottom-left-radius: 5px ;
     border: none;
+    color: #8a8787;
     
+}
+
+.drp:hover{
+    height: 2.5rem;
+    background-color: #c0c0c0;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    border: none;
+    color: #0f1111;
 }
 
 .search-text{
@@ -110,16 +120,39 @@ body{
     border-left: 1px;
     border-color: #1a0b4b45;
     border-style: solid;
+    font-size: 1rem;
 }
 
 /* .search-icon{
     width: 1px;
 } */
 
-.Search-logo{
-    position: relative;
-    left: 13px;
+.search-icon{
+    width: 44.4px;
+    height: 40px;
+    /* color: #0f1111; */
+    background-color: rgb(250, 223, 25);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
+
+.search-icon:hover{
+    background-color: rgb(179, 160, 11);
+}
+
+.nav-search:hover{
+    background-color: rgb(162, 145, 14);
+}
+
+/* .Search-logo:hover {
+    .nav-search{
+        background-color: rgb(0, 0, 0);
+    }
+} */
 
 .nav-lang{
     height: 60px;
@@ -165,4 +198,10 @@ body{
     /* flex-direction: column; */
     color: #f3f3f3;
     align-items: center;
+}
+
+.acc{
+    background-color: #0f1111;
+    color: #f3f3f3;
+    font-size: 1rem;
 }
