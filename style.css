@@ -324,3 +324,69 @@ body{
 .box-font{
     font-size: 20px;
 }
+
+
+.end-bar{
+    background-color: #234265;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.end-bar-back{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.end-info{
+    background-color:#232f3e;
+    height: 370px;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    /* align-items: start; */
+    justify-content: space-around;
+    
+}
+
+.end-info-main{
+    font-size: 24px;
+    color: white;
+
+}
+
+.end-bar-ul{
+    list-style-type: none;
+    line-height:200%;
+    color: #c0c0c0;
+    
+}
+
+.end-info-data{
+    width: 1150px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.end-logo{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #171e27;
+
+}
+
+.end-logo-img{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 90px;
+    /* border: 2px solid black; */
+    background-size: cover;
+}
