@@ -291,9 +291,9 @@ body{
 }
 .box6-img{
     background-image: url(box6-img.jpg);
-    height: 360px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     /* margin-left: 10px; */
     
 }
